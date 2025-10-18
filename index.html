@@ -82,21 +82,34 @@
                     <label for="genere" class="form-label">Genere</label>
                     <select class="form-select" id="genere">
                         <option selected>Scegli il genere</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="mistero">Mistero</option>
+                        <option value="storico">Storico</option>
                     </select>
                 </div>
+                <div class="md-3">
+                    <label for="annoPubblicazione" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" id="annoPubblicazione"
+                        placeholder="Inserire l'anno di pubblicazione">
+                </div>
+                <div class="md-3">
+                    <label for="isbn" class="form-label">ISBN</label>
+                    <input type="text" class="form-control" id="isbn" placeholder="Inserire il codice isbn">
+                </div>
+                <div class="mb-3">
+                    <label for="note" class="form-label">Note</label>
+                    <textarea class="form-control" id="note" rows="3"
+                        placeholder="Inserire eventuali note sul libro"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="opzioneOriginale">
+                    <label class="form-check-label" for="opzioneOriginale">Disponibile anche in digitale</label>
+                </div>
 
-
-
-
-
-
-
-
-
-
+                <button type="button" class="btn btn-primary btn-lg">Aggiungi libro</button>
+            </div>
         </form>
 
-        </div>
 
     </main>
 
