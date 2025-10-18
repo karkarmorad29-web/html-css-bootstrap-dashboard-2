@@ -1,0 +1,33 @@
+.logo {
+    width: 8%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+}
+.navbar {
+    border-color: white;
+    color: white;
+}
+
+h2 {
+    padding: 3rem;
+    color: black;
+}
+.testo {
+    color: black;
+}
+.tito {
+    color: black;
+    padding-top: 2rem;
+}

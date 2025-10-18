@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container-fluid ">
+        <div class="row">
+            <div class="col-12 bg-black ">
+                <nav class="navbar navbar-expand-lg tertiary">
+                    <img class="logo" src="./duck.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Anagrafica Utenti</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="Storico prestiti" aria-expanded="false">
+                                    Storico prestiti
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Help</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container mt-5">
+            <h2 class="mb-4">Nuovo Libro</h2>
+            <form>
+                <div class="row mb-3">
+                <div class="col-md-6">
+                    <h5 class="testo">Nome Autore</h5>
+                 <label for="NomeAutore" class="form-label">Nome Autore</label>
+                    <input type="text" class="form-control" id="nomeAutore" placeholder="Inserire il nome dell'Autore">
+                </div>
+                <div class="col-md-6">
+                    <h5 class="testo">Cognome Autore</h5>
+                    <label for="CognomeAutore" class="form-label">Cognome Autore</label>
+                    <input type="text" class="form-control" id="cognomeAutore" placeholder="Inserire il cognome dell'Autore">
+                </div>
+                <div class="mb-3">
+                    <h5 class="tito">Titolo</h5>
+                    <label for="titololibro" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="titololibro" placeholder="Inserire il titolo del libro">
+
+                </div>
+
+
+
+
+
+
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
+        integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
