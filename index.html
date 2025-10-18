@@ -59,25 +59,30 @@
 
     </header>
 
-    <main class="container mt-5">
-            <h2 class="mb-4">Nuovo Libro</h2>
-            <form>
-                <div class="row mb-3">
+    <main class="container mt-5 text-black">
+        <h2 class="mb-4">Nuovo Libro</h2>
+        <form>
+            <div class="row mb-3">
                 <div class="col-md-6">
-                    <h5 class="testo">Nome Autore</h5>
-                 <label for="NomeAutore" class="form-label">Nome Autore</label>
+
+                    <label for="NomeAutore" class="form-label">Nome Autore</label>
                     <input type="text" class="form-control" id="nomeAutore" placeholder="Inserire il nome dell'Autore">
                 </div>
                 <div class="col-md-6">
-                    <h5 class="testo">Cognome Autore</h5>
                     <label for="CognomeAutore" class="form-label">Cognome Autore</label>
-                    <input type="text" class="form-control" id="cognomeAutore" placeholder="Inserire il cognome dell'Autore">
+                    <input type="text" class="form-control" id="cognomeAutore"
+                        placeholder="Inserire il cognome dell'Autore">
                 </div>
                 <div class="mb-3">
-                    <h5 class="tito">Titolo</h5>
                     <label for="titololibro" class="form-label">Titolo</label>
                     <input type="text" class="form-control" id="titololibro" placeholder="Inserire il titolo del libro">
-
+                    <p>Titolo vertsione italiana </p>
+                </div>
+                <div class="md-3">
+                    <label for="genere" class="form-label">Genere</label>
+                    <select class="form-select" id="genere">
+                        <option selected>Scegli il genere</option>
+                    </select>
                 </div>
 
 
@@ -87,7 +92,9 @@
 
 
 
-            </form>
+
+
+        </form>
 
         </div>
 
