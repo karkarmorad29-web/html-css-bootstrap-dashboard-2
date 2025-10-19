@@ -15,19 +15,17 @@
 body {
     font-family: sans-serif;
 }
-.navbar {
-    border-color: white;
-    color: white;
+.navbar-toggler-icon {
+    
+    border-radius: 20%;
 }
 
 h2 {
     padding: 3rem;
     color: black;
 }
-.testo {
-    color: black;
-}
-.tito {
-    color: black;
-    padding-top: 2rem;
+
+.riga {
+    padding: 4rem;
+    width: 100%;
 }
